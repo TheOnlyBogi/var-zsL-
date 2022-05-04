@@ -118,6 +118,10 @@ input[type="checkbox"]{
 }
 
 
+
+
+
+
 #Szolgáltatásaink{
   display: flex;
   flex-direction: column;
@@ -160,6 +164,16 @@ input[type="checkbox"]{
   border: none;
   box-shadow: 0 0 20px rgb(255, 255, 255);
 }
+
+
+
+
+
+
+
+
+
+
 .logo1 {
   border-radius: 30%;
   position: relative;
