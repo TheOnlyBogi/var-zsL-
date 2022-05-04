@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <title>Felvételi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="center">
+        <h1>Felvételi</h1>
+        <form onsubmit="sendEmail(); reset(); return false;">
+            <input type="text" id="name" name="Name" placeholder="Full Name" required>
+            <input type="email" id="email" name="Email" placeholder="Email" required>
+            <select name="Continent">
+                <option>Africa</option>
+                <option>Antarctica</option>
+                <option>Asia</option>
+                <option>Australia</option>
+                <option>Europa</option>
+                <option>North America</option>
+                <option>South America</option>
+            </select>
+            <textarea id="message" name="Message" placeholder="Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        function sendEmail(){
+            Email.send({
+                Host : "smtp.gmail.com",
+                Username : "techwarts.suli@gmail.com",
+                Password : "Jedlik20060315",
+                To : 'techwarts.info@gmail.com',
+                From : document.getElementById("email").value,
+                Subject : "Felvételi",
+                Body : "And this is the body"
+            }).then(
+            message => alert("üzenet elküldve")
+            );
+        }
+    </script>
+<br>
+<br>
+<br>
+<div class="footer-container">
+    
+    <div class="footer">
+        <div class="footer-heading footer-1">
+            <img src="techwarts2.png">
+        </div>
+
+        <div class="footer-heading footer-1">
+            <h2>About us</h2>
+            <a href="#">About us</a>
+            <a href="órarend.html">Órarend</a>
+            <a href="felvételi.html">Felvételi</a>
+            <a href="#"></a>
+            <a href="#"></a>
+        </div>
+        <div class="footer-heading footer-2">
+            <h2>Contact us</h2>
+            <a href="#">Email</a>
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">Phone</a>
+            <a href="#">Address</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>
