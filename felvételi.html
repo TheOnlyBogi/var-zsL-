@@ -8,8 +8,24 @@
 </head>
 <body>
     
+    <nav>
+        <div class="logo">
+           Techwarts
+        </div>
+        <input type="checkbox" id="click">
+        <label for="click" class="menu-btn">
+        <i class="fas fa-bars"></i>
+        </label>
+        <ul>
+           <li><a href="index.html">Főoldal</a></li>
+           <li><a href="rolunk.html">Rólunk</a></li>
+           <li><a href="orarend.html">Órarend</a></li>
+           <li><a  href="esemenyek.html">Események</a></li>
+           <li><a href="#" class="active">Felvételi</a></li>
+        </ul>
+     </nav>
+
     <div class="center">
-        <h1>Felvételi</h1>
         <form onsubmit="sendEmail(); reset(); return false;">
             <input type="text" id="name" name="Name" placeholder="Full Name" required>
             <input type="email" id="email" name="Email" placeholder="Email" required>
