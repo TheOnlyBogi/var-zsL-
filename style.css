@@ -223,12 +223,12 @@ margin-top: 200px;
 .front p{
   font-size: 35px;
   margin-bottom: 15px;
-  color: rgb(104, 139, 235);
+  color: whitesmoke;
 }
 .front span{
   font-size: 28px;
   margin-bottom: 100px;
-  color: rgb(104, 139, 235);
+  color: whitesmoke;
 }
 .front p:after{
   content: '';
@@ -294,5 +294,40 @@ margin-top: 200px;
   transform: rotateY(0deg);
 }
 .center2:hover > .front-face2{
+  transform: rotateY(-180deg);
+}
+
+
+.center3{
+  position: fixed;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 400px;
+  width: 290px;
+  transform-style: preserve-3d;
+ perspective: 1000px;
+ display: flex;
+}
+
+.front-face3{
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  background:url(Aron1.jpg) ;
+  background-size: cover;
+  background-position: center;
+  transform: translateY(0deg);
+  border-radius: 10px;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition: transform .7s cubic-bezier(.4,.2,.2,1);
+}
+
+
+.center3:hover > .back-face{
+  transform: rotateY(0deg);
+}
+.center3:hover > .front-face3{
   transform: rotateY(-180deg);
 }
