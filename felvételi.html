@@ -24,24 +24,18 @@
            <li><a href="#" class="active">Felvételi</a></li>
         </ul>
      </nav>
-     <h1 style="color: white;"> Jelentkezés: </h1>
+     <br>
+     <br>
+    <div style="background-color: #1b1b1b; height: 450px; width: 700px; margin: auto;">
+     <h1 style="color: white; text-align: center;"><u> Jelentkezés:</u> </h1> 
     <div class="center">
         <form onsubmit="sendEmail(); reset(); return false;">
 
-            <b style="color: white;"> Név: </b><input type="text" id="name" name="Name" placeholder="Teljes név" required> <br>
-            <b style="color: white;"> E-mail </b><input type="email" id="email" name="Email" placeholder="Email" required> <br>
+            <p style="color: white;"> Név: </p> <input type="text" id="name" name="Name" placeholder="Teljes név" required style="width:300px"> <br>
+            <p style="color: white;"> E-mail: </p><input type="email" id="email" name="Email" placeholder="Email" required style="width:300px"> <br>
 
-            <select name="Continent">
-                <option>Africa</option>
-                <option>Antarctica</option>
-                <option>Asia</option>
-                <option>Australia</option>
-                <option>Europa</option>
-                <option>North America</option>
-                <option>South America</option>
-            </select> <div>
-
-            <textarea id="message" name="Message" placeholder="További kérdések " required></textarea>
+            <p style="color: white;"> Üzenet: </p>
+            <textarea id="message" name="Message" placeholder="További kérdések" required style="width: 700px; height: 120px; "></textarea>
         </div>
             <button type="submit"> Küldés </button>
 
@@ -67,15 +61,10 @@
 <br>
 <br>
 <div class="footer-container">
-    
-
-    <div class="footer">
-        <div class="footer-heading footer-1">
-            <img src="techwarts2.png">
-        </div>
         
 
     </div>
+</div>
 </div>
 </body>
 </html>
