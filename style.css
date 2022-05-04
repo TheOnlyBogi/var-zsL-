@@ -154,7 +154,7 @@ input[type="checkbox"]{
   text-align: justify;
   padding: 10px;
   border-radius: 15px;
-  background: linear-gradient(to top, rgb(44, 58, 97) 50%, white 50%);
+  background: linear-gradient(to top, rgb(33, 42, 66) 50%, white 50%);
   background-size: 100% 200%;
   transition: all .8s;
 }
