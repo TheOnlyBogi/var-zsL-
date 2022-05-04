@@ -24,11 +24,11 @@
            <li><a href="#" class="active">Felvételi</a></li>
         </ul>
      </nav>
-
+     <h1 style="color: white;"> Jelentkezés: </h1>
     <div class="center">
         <form onsubmit="sendEmail(); reset(); return false;">
-            <input type="text" id="name" name="Name" placeholder="Full Name" required>
-            <input type="email" id="email" name="Email" placeholder="Email" required>
+            <b style="color: white;"> Név: </b><input type="text" id="name" name="Name" placeholder="Teljes név" required> <br>
+            <b style="color: white;"> E-mail </b><input type="email" id="email" name="Email" placeholder="Email" required> <br>
             <select name="Continent">
                 <option>Africa</option>
                 <option>Antarctica</option>
@@ -37,9 +37,10 @@
                 <option>Europa</option>
                 <option>North America</option>
                 <option>South America</option>
-            </select>
-            <textarea id="message" name="Message" placeholder="Message" required></textarea>
-            <button type="submit">Send</button>
+            </select> <div>
+            <textarea id="message" name="Message" placeholder="További kérdések " required></textarea>
+        </div>
+            <button type="submit"> Küldés </button>
         </form>
     </div>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
@@ -63,18 +64,7 @@
 <br>
 <div class="footer-container">
     
-    <div class="footer">
-        <div class="footer-heading footer-1">
-            <img src="techwarts2.png">
-        </div>
-        <div class="footer-heading footer-2">
-            <h2>Contact us</h2>
-            <a href="#">Email</a>
-            <a href="#">Facebook</a>
-            <a href="#">Instagram</a>
-            <a href="#">Phone</a>
-            <a href="#">Address</a>
-        </div>
+    
     </div>
 </div>
 </body>
