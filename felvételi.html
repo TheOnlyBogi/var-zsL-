@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width-device-width, initial-scale=1.0">
-    <title>Felvételi</title>
+    <title>Jelentkezés</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body style="background-color: #2c3e50">
@@ -21,23 +21,29 @@
            <li><a href="rolunk.html">Rólunk</a></li>
            <li><a href="orarend.html">Órarend</a></li>
            <li><a  href="esemenyek.html">Események</a></li>
-           <li><a href="#" class="active">Felvételi</a></li>
+           <li><a href="#" class="active">Jelentkezés</a></li>
         </ul>
      </nav>
      <br>
      <br>
-    <div style="background-color: #1b1b1b; height: 450px; width: 700px; margin: auto;">
+    <div style="background-color: #1b1b1b; height: 450px; width: 700px; margin: auto; border-radius: 2%; position: relative;">
      <h1 style="color: white; text-align: center;"><u> Jelentkezés:</u> </h1> 
-    <div class="center">
+    <div class="áronelbasztanekem">
         <form onsubmit="sendEmail(); reset(); return false;">
+            <div>
 
-            <p style="color: white;"> Név: </p> <input type="text" id="name" name="Name" placeholder="Teljes név" required style="width:300px"> <br>
-            <p style="color: white;"> E-mail: </p><input type="email" id="email" name="Email" placeholder="Email" required style="width:300px"> <br>
+            <p style="color: white;"> Név: </p> <input type="text" id="name" name="Name" placeholder="Teljes név" required style="width:300px"> 
+
+            <br>
+
+            <p style="color: white;"> E-mail: </p><input type="email" id="email" name="Email" placeholder="Email" required style="width:300px"> 
+
+            <br>
 
             <p style="color: white;"> Üzenet: </p>
             <textarea id="message" name="Message" placeholder="További kérdések" required style="width: 700px; height: 120px; "></textarea>
         </div>
-            <button type="submit"> Küldés </button>
+        <button type="submit" style="border-radius: 10%;"> Küldés </button>
 
         </form>
     </div>
@@ -57,14 +63,7 @@
             );
         }
     </script>
-<br>
-<br>
-<br>
-<div class="footer-container">
-        
 
-    </div>
-</div>
 </div>
 <div class="footer-container">
     
