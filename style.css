@@ -130,7 +130,14 @@ table{
   padding: 0;
 }
 
+<<<<<<< HEAD
 
+=======
+table, th, td{
+  border: solid 5px
+  border-collapse: collapse;
+}
+>>>>>>> parent of 18623f1 (keeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeesz)
 
 tr{
   height: 50px;
@@ -395,6 +402,7 @@ margin-top: 200px;
 }
 .center3:hover > .front-face3 {
   transform: rotateY(-180deg);
+<<<<<<< HEAD
 }
 
 .szoveg10{
@@ -415,3 +423,6 @@ margin-top: 10%;
   color: wheat;
   font-size: 30px;
 }
+=======
+}
+>>>>>>> parent of 18623f1 (keeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeesz)
