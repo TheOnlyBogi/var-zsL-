@@ -224,27 +224,7 @@ text-align: center;
   
 }
 
-.box{
-  display: flex;
-  flex-direction: column;
-  width: 350px;
-  height: 450px;
-  border: 1px solid black;
-  margin: 10px;
-  align-items: center;
-  text-align: justify;
-  padding: 10px;
-  border-radius: 15px;
-  background: linear-gradient(to top, rgb(33, 42, 66) 50%, white 50%);
-  background-size: 100% 200%;
-  transition: all .8s;
-}
-.box:hover{
-  background-position: left bottom;
-  color: whitesmoke;
-  border: none;
-  box-shadow: 0 0 20px rgb(255, 255, 255);
-}
+
 #áronelbasztanekem{
   text-align: center;
 }
@@ -266,7 +246,7 @@ margin-top: 200px;
 .center{
   top: 73%;
   left: 80%;
-  transform: translate(-50%, -50%);
+  transform: translate(left);
   height: 400px;
   width: 290px;
   transform-style: preserve-3d;
@@ -341,7 +321,7 @@ margin-top: 200px;
 
   top: 73%;
   left: 20%;
-  transform: translate(-50%, -50%);
+  transform: translate(center);
   height: 400px;
   width: 290px;
   transform-style: preserve-3d;
@@ -376,7 +356,7 @@ margin-top: 200px;
 
   top: 73%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(right);
   height: 400px;
   width: 290px;
   transform-style: preserve-3d;
@@ -426,3 +406,81 @@ margin-top: 10%;
   font-size: 30px;
 }
 
+
+.szoveg11{
+  transform:translate();
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  
+}
+
+
+.doboz1{
+  
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 450px;
+  border: 1px solid black;
+  margin: 10px;
+  align-items: center;
+  text-align: justify;
+  padding: 10px;
+  border-radius: 15px;
+  background: linear-gradient(to top, rgb(33, 42, 66) 50%, white 50%);
+  background-size: 100% 200%;
+  transition: all .8s;
+}
+.doboz1:hover{
+  background-position: left bottom;
+  color: whitesmoke;
+  border: none;
+  box-shadow: 0 0 20px rgb(255, 255, 255);
+}
+
+.doboz2{
+
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 450px;
+  border: 1px solid black;
+  margin: 10px;
+  align-items: center;
+  text-align: justify;
+  padding: 10px;
+  border-radius: 15px;
+  background: linear-gradient(to top, rgb(33, 42, 66) 50%, white 50%);
+  background-size: 100% 200%;
+  transition: all .8s;
+}
+.doboz2:hover{
+  background-position: left bottom;
+  color: whitesmoke;
+  border: none;
+  box-shadow: 0 0 20px rgb(255, 255, 255);
+}
+
+.doboz3{
+ 
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 450px;
+  border: 1px solid black;
+  margin: 10px;
+  align-items: center;
+  text-align: justify;
+  padding: 10px;
+  border-radius: 15px;
+  background: linear-gradient(to top, rgb(33, 42, 66) 50%, white 50%);
+  background-size: 100% 200%;
+  transition: all .8s;
+}
+.doboz3:hover{
+  background-position: left bottom;
+  color: whitesmoke;
+  border: none;
+  box-shadow: 0 0 20px rgb(255, 255, 255);
+}
