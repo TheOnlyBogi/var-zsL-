@@ -256,12 +256,11 @@ tr{
 margin-top: 200px;
 }
 
-.center,.front-face,
+.front-face,
 .contents,.back-face{
   position: absolute;
 }
 .center{
-  position: fixed;
   top: 73%;
   left: 80%;
   transform: translate(-50%, -50%);
@@ -336,7 +335,7 @@ margin-top: 200px;
 }
 
 .center2{
-  position: fixed;
+
   top: 73%;
   left: 20%;
   transform: translate(-50%, -50%);
@@ -371,7 +370,7 @@ margin-top: 200px;
 
 
 .center3{
-  position: fixed;
+
   top: 73%;
   left: 50%;
   transform: translate(-50%, -50%);
