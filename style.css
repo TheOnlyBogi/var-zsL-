@@ -132,14 +132,19 @@ table{
 
 
 table, th, td{
-  border: solid 5px;
+  border: solid 5px white;
   border-collapse: collapse;
+  color: white;
 }
 
 tr{
   height: 50px;
 }
 
+h1{
+color: white;
+text-align: center;
+}
 *{
   padding: 0;
   margin: 0;
