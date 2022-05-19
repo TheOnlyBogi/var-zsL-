@@ -135,6 +135,7 @@ table, th, td{
   border: solid 5px white;
   border-collapse: collapse;
   color: white;
+  text-align: center;
 }
 
 tr{
